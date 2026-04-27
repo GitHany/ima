@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Trae
+.trae/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IMA 生成的文件（笔记草稿）
+.ima_files/
+
+# 临时文件
+*.tmp
+*.temp
+ima-skill-temp/
+
+# Credentials (如果有的话)
+*.env
+.env.local
+*.key
+client_id
+api_key
+
+# Logs
+*.log

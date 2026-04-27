@@ -1,0 +1,53 @@
+{
+  "name": "ima-web-to-note",
+  "version": "1.0.0",
+  "description": "将网页内容转换为 IMA 笔记的技能，支持自动识别内容类型并匹配合适的模板",
+  "author": "hany",
+  "tags": ["ima", "web", "note", "import", "template", "content-processing"],
+  "homepage": "https://ima.qq.com",
+  "license": "MIT",
+  "required_binaries": [
+    "node"
+  ],
+  "required_env": [
+    "IMA_OPENAPI_CLIENTID",
+    "IMA_OPENAPI_APIKEY"
+  ],
+  "optional_env": [],
+  "dependencies": [
+    "ima-skill"
+  ],
+  "skills": [
+    {
+      "name": "page-import",
+      "description": "用于抓取网页内容"
+    },
+    {
+      "name": "ima-skill",
+      "description": "用于创建笔记到 IMA 平台"
+    }
+  ],
+  "keywords": [
+    "IMA",
+    "网页转笔记",
+    "内容导入",
+    "模板转换",
+    "知识管理"
+  ],
+  "supported_content_types": [
+    "api-doc",
+    "project-doc",
+    "knowledge",
+    "decision",
+    "meeting",
+    "incident",
+    "rfc",
+    "security",
+    "performance",
+    "runbook",
+    "onboarding",
+    "prd",
+    "retro",
+    "generic"
+  ]
+}
